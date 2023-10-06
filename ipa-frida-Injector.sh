@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# Author: vari.sh
+
 # Arguments check
 if [ ! $# -eq 2 ]; then
 	echo "Usage: $0 <ipa file> <provision file>"
