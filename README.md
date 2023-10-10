@@ -1,10 +1,16 @@
 # iOS-ipa-patcher-with-Frida
 A simple script to inject Frida gadget in an iOS application, so that it can be tested on non-jailbroken iPhones  
 
+# Prerequisites
+1. Xcode installed
+2. A signing key configured in Xcode
+3. A provisioning file configured in Xcode
+4. ios-deploy
+
 ## How to
 Simply launch the script in a folder with the ipa file.  
 ```bash
-ipa-frida-Injector.sh <ipa file> <provision file>
+ipa-frida-Injector.sh <ipa file> <provisioning file>
 ```
 The provisioning file is usually located at
 ```
