@@ -5,7 +5,7 @@ A simple script to inject Frida gadget in an iOS application, so that it can be 
 1. Xcode installed
 2. A provisioning profile configured in Xcode
 3. A provisioning file (to create it, you need to start a new blank project in Xcode and deploy it on the iPhone you're going to use for tests)
-4. ios-deploy
+4. ios-deploy (you can install it through npm, it is not mandatory if you just want to create the patched ipa and run it manually)
 
 ## How to
 Simply launch the script in a folder with the ipa file.  
