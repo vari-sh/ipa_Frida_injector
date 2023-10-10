@@ -1,10 +1,10 @@
 # .ipa Frida Injector
 A simple script to inject Frida gadget in an iOS application, so that it can be tested on non-jailbroken iPhones  
 
-# Prerequisites
+## Prerequisites
 1. Xcode installed
-2. A signing key configured in Xcode
-3. A provisioning file configured in Xcode
+2. A provisioning profile configured in Xcode
+3. A provisioning file (to create it, you need to start a new blank project in Xcode and deploy it on the iPhone you're going to use for tests)
 4. ios-deploy
 
 ## How to
